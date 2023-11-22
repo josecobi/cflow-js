@@ -2,7 +2,7 @@
 //This part can be completed creating functions and using JavaScript methods. 
 //However, in this case only knowledge taught in class so far is applied.
 
-console.log("PART 1: Growing Pains");
+console.log("\n>>>>>>>>>>>>>>>>>  PART 1: Growing Pains  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
 //Create variables with provided data
 const areaRadius = 5;
@@ -67,8 +67,9 @@ else {
 
 
 
+
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Part 2: Thinking Bigger<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-console.log("PART 2: Thinking Bigger");
+console.log("\n>>>>>>>>>>>>>>>>>  PART 2: Thinking Bigger  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 // Calculate the area taken by the plants
 initialNumberOfPlants = 100;
 
@@ -85,11 +86,11 @@ console.log(`The space required for the plants after 10 weeks with an initial am
 
 // Calculate radius of total area after 10 weeks
 let radiusAfter10Weeks = (areaTakenByPlants / PI) **0.5;
-console.log(`The radius after 10 weeks with an initial amount of 100 plants is ${radiusAfter10Weeks}`);
+console.log(`The radius after 10 weeks with an initial amount of 100 plants is ${radiusAfter10Weeks}\n`);
 
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Part 3: Errors in Judgement<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-console.log("PART 2: Errors in Judgement");
+console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>  PART 3: Errors in Judgement  <<<<<<<<<<<<<<<<<<<<<<<<<");
 
 // Handle error if area required is bigger than area available
 
