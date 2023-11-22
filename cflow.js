@@ -82,11 +82,11 @@ let areaTakenByPlants = minSpacePlant * numberOfPlantsAfter10Weeks;
 // Calculate additional space required for all plants
 let aditionalSpace = areaTakenByPlants - (minSpacePlant * maxNumPlantsInArea);
 
-console.log(`The space required for the plants after 10 weeks with an initial amount of 100 plants is ${aditionalSpace} square meters`);
+console.log(`The space required for the plants after 10 weeks with an initial amount of 100 plants is ${aditionalSpace} square meters.`);
 
 // Calculate radius of total area after 10 weeks
 let radiusAfter10Weeks = (areaTakenByPlants / PI) **0.5;
-console.log(`The radius after 10 weeks with an initial amount of 100 plants is ${radiusAfter10Weeks}\n`);
+console.log(`The radius after 10 weeks with an initial amount of 100 plants is ${radiusAfter10Weeks} meters.\n`);
 
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Part 3: Errors in Judgement<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -105,4 +105,4 @@ try {
 catch (error) {
     console.log(error);
 }
-console.log("If this is printed, the try...catch works");
+console.log("If this is printed, the try...catch block works.");
