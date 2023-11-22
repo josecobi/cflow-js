@@ -72,15 +72,4 @@ initialNumberOfPlants = 100;
 
 //Calculate the number of plants after 10 weeks
 let numberOfPlantsAfter10Weeks = initialNumberOfPlants * 2 ** 10;
-console.log("numberOfPlantsAfter10Weeks: " + numberOfPlantsAfter10Weeks)
 
-
-let areaTakenByPlants = minSpacePlant * numberOfPlantsAfter10Weeks;
-console.log("areaTakenByPlants: " + areaTakenByPlants)
-let aditionalSpace = areaTakenByPlants - (minSpacePlant * maxNumPlantsInArea);
-
-console.log(`The space required for the plants after 10 weeks with an initial amount of 100 plants is ${aditionalSpace} square meters`);
-
-let radiusAfter10Weeks = (areaTakenByPlants / PI) **0.5;
-console.log(`The radius after 10 weeks with an initial amount of 100 plants is ${radiusAfter10Weeks}`);
-// 
