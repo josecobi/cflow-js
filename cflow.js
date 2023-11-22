@@ -73,3 +73,7 @@ initialNumberOfPlants = 100;
 //Calculate the number of plants after 10 weeks
 let numberOfPlantsAfter10Weeks = initialNumberOfPlants * 2 ** 10;
 
+// Calculate are taken by plants after 10 weeks
+let areaTakenByPlants = minSpacePlant * numberOfPlantsAfter10Weeks;
+
+// 
