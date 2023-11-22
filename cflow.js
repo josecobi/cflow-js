@@ -70,10 +70,12 @@ else {
 // Calculate the area taken by the plants
 initialNumberOfPlants = 100;
 
-//Calculate the number of plants after 10 weeks
+//Calculate the number of plants after 10 weeks starting with 100 plants
 let numberOfPlantsAfter10Weeks = initialNumberOfPlants * 2 ** 10;
 
-// Calculate are taken by plants after 10 weeks
+// Calculate the area taken by plants after 10 weeks
 let areaTakenByPlants = minSpacePlant * numberOfPlantsAfter10Weeks;
 
-// 
+// Calculate additional space required for all plants
+let aditionalSpace = areaTakenByPlants - (minSpacePlant * maxNumPlantsInArea);
+
